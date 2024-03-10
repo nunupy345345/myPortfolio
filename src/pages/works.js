@@ -30,7 +30,7 @@ export const Works = () => {
         <div class="box_text">
             <h2>100proタイピングゲーム</h2>
             <p>100programというハッカソンで作りました。Reactを使いました。<br></br>文字を動的に色を変化させるときにReactのuseStateの便利さがわかりました。</p>
-            {/* <a href="">かわいい</a> */}
+            <a href="https://yamaguchi780.github.io/100program/">100proタイピングゲーム</a>
         </div>
       </div>
       <div class="box">
