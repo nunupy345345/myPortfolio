@@ -1,61 +1,76 @@
+h1 {
+  text-align: center;
+  margin: 5%;
+  border-bottom: double 5px #000000;
+}
+
 .box_image img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 90%;
+    margin: 10%;
+    object-fit: cover;
+    overflow: hidden; /* はみ出る部分を隠す */
+
+    border-radius: 100vh;
 }
 
 .box_text {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden; /* はみ出る部分を隠す */
+
+    border-radius: 100vh;
 }
 
 @media screen and (max-width: 767.98px) {
-  .box_text {
-      padding: 60px 20px;
-  }
+    .box_text {
+        padding: 60px 20px;
+    }
 }
 @media screen and (min-width: 768px) {
-  .box {
-      position: relative;
-  }
-  .box_text {
-      padding: 60px;
-  }
+    .box {
+        position: relative;
+    }
+    .box_text {
+        padding: 60px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1100px) {
-  .box_text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      width: 80%;
-      background-color: rgba(255, 255, 255, 0.9);
-  }
+    .box_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
 }
 @media screen and (min-width: 1100px) {
-  .box_text {
-      border: 1px solid #000;
-      background-color: #fff;
-  }
-  .box_image {
-      position: relative;
-      top: 0px;
-      left: 50%;
-      transform: translateX(-100%);
-      width: 50%;
-      max-width: 700px;
-  }
-  .box_text {
-      position: absolute;
-      top: 50%;
-      left: 45%;
-      transform: translateY(-50%);
-      width: 50%;
-      max-width: 700px;
-  }
-  .box:nth-of-type(even) .box_image {
-      transform: translateX(0%);
-  }
-  .box:nth-of-type(even) .box_text {
-      left: 55%;
-      transform: translateX(-100%) translateY(-50%);
-  }
+    .box_text {
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+    .box_image {
+        position: relative;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-100%);
+        width: 50%;
+        max-width: 700px;
+    }
+    .box_text {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translateY(-50%);
+        width: 50%;
+        max-width: 700px;
+    }
+    .box:nth-of-type(even) .box_image {
+        transform: translateX(0%);
+    }
+    .box:nth-of-type(even) .box_text {
+        left: 55%;
+        transform: translateX(-100%) translateY(-50%);
+    }
 }
