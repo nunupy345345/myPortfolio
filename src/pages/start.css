@@ -1,4 +1,6 @@
-
+.About {
+  text-align: center;
+}
 /*線*/
 html:before,
 html:after,
@@ -34,4 +36,8 @@ body:before {
   left: 0;
   opacity: 0.5;
 
+}
+.history {
+  margin: 10%;
+  color: black;
 }
