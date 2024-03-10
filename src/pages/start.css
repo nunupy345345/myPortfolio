@@ -1,0 +1,37 @@
+
+/*線*/
+html:before,
+html:after,
+body:before,
+body:after {
+  content: '';
+  background: #00000000;
+  position: fixed;
+  display: block;
+  z-index: -1;
+}
+/* 右 */
+html:after {
+  width: 3vw;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  opacity: 0.5;
+}
+/* 左 */
+body:after {
+  width: 3vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+下
+body:before {
+  height: 3vw;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+
+}
