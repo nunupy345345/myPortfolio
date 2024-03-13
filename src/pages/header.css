@@ -43,3 +43,13 @@
   right: 0;
   top: 0;
 }
+.github-logo {
+  width: 30px; /* 適切なサイズに調整してください */
+  height: auto;
+  border-radius: 50%;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #333;
+}

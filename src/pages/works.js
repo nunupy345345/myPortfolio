@@ -6,6 +6,8 @@ import openapi from "../images/openapi.png";
 import yotiyoti from "../images/yotiyoti.png";
 import unibirth from "../images/unibirth.png";
 import car from "../images/car.jpg";
+import slack from "../images/slack.png";
+import dorokei from "../images/dorokei.png";
 import './works.css';
 
 export const Works = () => {
@@ -54,7 +56,7 @@ export const Works = () => {
       </div>
       <div class="box">
         <div class="box_image">
-            <img src={openapi} alt="JPHacksSlackbots"/>
+            <img src={slack} alt="JPHacksSlackbots"/>
         </div>
         <div class="box_text">
             <h2>JPHacksSlackbots</h2>
@@ -83,7 +85,7 @@ export const Works = () => {
       </div> 
       <div class="box">
            <div class="box_image">
-               <img src={openapi} alt="cyber-dorokei"/>
+               <img src={dorokei} alt="cyber-dorokei"/>
            </div>
            <div class="box_text">
                <h2>cyber-dorokei</h2>
