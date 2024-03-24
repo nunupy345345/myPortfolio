@@ -76,4 +76,11 @@ export const data = [
     cardDetailedText:
       "ドキュメントからの開発で要件定義から開発中です。flutter,fastAPI,FastAPIを使っています。要件定義の大事さを学びました。",
   },
+  {
+    title: "2023年3月",
+    cardTitle: "Dots to Code2024参加",
+    cardSubtitle: "thoughtful開発",
+    cardDetailedText:
+      "DBとしてredisを使用しました。一緒にチームを組んだ先輩にDDDを学び、ディレクトリ構成を学びました",
+  },
 ];
