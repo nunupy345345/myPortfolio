@@ -7,7 +7,7 @@ import yotiyoti from "../images/yotiyoti.png";
 import unibirth from "../images/unibirth.png";
 import car from "../images/car.jpg";
 import slack from "../images/slack.png";
-import dorokei from "../images/dorokei.png";
+import dorokei from "../images/dorokei.jpg";
 import './works.css';
 
 export const Works = () => {
