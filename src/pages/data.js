@@ -83,4 +83,18 @@ export const data = [
     cardDetailedText:
       "DBとしてredisを使用しました。一緒にチームを組んだ先輩にDDDを学び、ディレクトリ構成を学びました",
   },
+  {
+    title: "2023年6月",
+    cardTitle: "長期インターン始まり",
+    cardSubtitle: "モバイルアプリ開発メインのインターンを始めました！",
+    cardDetailedText:
+      "技術的な成長を感じています。チームで開発するときの技術を学びました。",
+  },
+  {
+    title: "2023年8月",
+    cardTitle: "第六期100 program参加",
+    cardSubtitle: "100program、最終選抜まで残りました",
+    cardDetailedText:
+      "flutterでputoneというSNSアプリを開発しました。最終選抜まで残りました。",
+  },
 ];
