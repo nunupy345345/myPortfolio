@@ -63,25 +63,32 @@ export const data = [
       "ReactとGoogle Map APIで作りました。APIのたたき方を学びました。",
   },
   {
-    title: "2023年1月",
+    title: "2024年1月",
     cardTitle: "Sun*_Hackathon for Students 2023",
     cardSubtitle: "OpenAPI×slack_bolt",
     cardDetailedText:
       "ベトナムと日本の共同のハッカソンでした。slackとAPIの連携に苦戦しました。",
   },
   {
-    title: "2023年2月",
+    title: "2024年2月",
     cardTitle: "cyber-dorokei開発",
     cardSubtitle: "ドキュメントからの開発",
     cardDetailedText:
       "ドキュメントからの開発で要件定義から開発中です。flutter,fastAPI,FastAPIを使っています。要件定義の大事さを学びました。",
   },
   {
-    title: "2023年3月",
+    title: "2024年3月",
     cardTitle: "Dots to Code2024参加",
     cardSubtitle: "thoughtful開発",
     cardDetailedText:
       "DBとしてredisを使用しました。一緒にチームを組んだ先輩にDDDを学び、ディレクトリ構成を学びました",
+  },
+  {
+    title: "2024年4月",
+    cardTitle: "JackHack",
+    cardSubtitle: "KIKIKAN",
+    cardDetailedText:
+      "Web audio APIを初めて使いました。",
   },
   {
     title: "2023年6月",
