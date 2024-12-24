@@ -91,17 +91,31 @@ export const data = [
       "Web audio APIを初めて使いました。",
   },
   {
-    title: "2023年6月",
+    title: "2024年6月",
     cardTitle: "長期インターン始まり",
     cardSubtitle: "モバイルアプリ開発メインのインターンを始めました！",
     cardDetailedText:
       "技術的な成長を感じています。チームで開発するときの技術を学びました。",
   },
   {
-    title: "2023年8月",
+    title: "2024年8月",
     cardTitle: "第六期100 program参加",
     cardSubtitle: "100program、最終選抜まで残りました",
     cardDetailedText:
       "flutterでputoneというSNSアプリを開発しました。最終選抜まで残りました。",
+  },
+  {
+    title: "2024年9月",
+    cardTitle: "KoiKoi Ai Competition",
+    cardSubtitle: "KoiKoi Ai を対戦する基盤を作成",
+    cardDetailedText:
+      "KoiKoi Ai CompetitionというカードゲームのこいこいをAIで対戦する大会をサークルで開催しました。いつも使っているデータサイエンスコンペのありがたみがわかりました。",
+  },
+  {
+    title: "2024年10月",
+    cardTitle: "JPHacks2024参加",
+    cardSubtitle: "駅くぐるの作成",
+    cardDetailedText:
+      "flutterを用いて、駅構内/駅構外にある施設を可視化、検索するアプリを作成しました。データの量や構造の勉強のきっかけとなりました。",
   },
 ];
