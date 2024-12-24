@@ -8,6 +8,9 @@ import unibirth from "../images/unibirth.png";
 import car from "../images/car.jpg";
 import slack from "../images/slack.png";
 import dorokei from "../images/dorokei.jpg";
+import koikoi from "../images/koikoi.png";
+import putone from "../images/putone.png";
+import ekikuguru from "../images/ekikuguru.png";
 import './works.css';
 
 export const Works = () => {
@@ -89,10 +92,40 @@ export const Works = () => {
            </div>
            <div class="box_text">
                <h2>cyber-dorokei</h2>
-               <p>flutter,fastAPI,firebaseで開発中のドロケイアプリです。<br></br>firebaseの便利さに驚きました。</p>
+               <p>flutter,fastAPI,firebaseで開発したのドロケイアプリです。<br></br>firebaseの便利さに驚きました。<br></br>android版はリリースの基準が厳しくなったためリリースは出来なかったですが、ios版のリリースが出来ました。</p>
 
            </div>
       </div> 
+      <div class="box">
+           <div class="box_image">
+               <img src={koikoi} alt="koikoi"/>
+           </div>
+           <div class="box_text">
+               <h2>KoiKoi Ai Competition</h2>
+               <p>KoiKoi Ai CompetitionというカードゲームのこいこいをAIで対戦する大会をサークルで開催しました。<br></br>いつも使っているデータサイエンスコンペのありがたみがわかりました。</p>
+
+           </div>
+      </div>
+      <div class="box">
+           <div class="box_image">
+               <img src={putone} alt="putone"/>
+           </div>
+           <div class="box_text">
+               <h2>putone</h2>
+               <p>100programというハッカソンで作りました。flutter,firebaseを用いたSNSです。<br></br>データ構造の効率化やfollow/followerの概念などに苦労しました。</p>
+
+           </div>
+      </div>
+      <div class="box">
+           <div class="box_image">
+               <img src={ekikuguru} alt="ekikuguru"/>
+           </div>
+           <div class="box_text">
+               <h2>駅くぐる</h2>
+               <p>flutterを用いて、駅構内/駅構外にある施設を可視化、検索するアプリを作成しました。<br></br>データの量や構造の勉強のきっかけとなりました。</p>
+
+           </div>
+      </div>
     </div> 
   );
 }; 
